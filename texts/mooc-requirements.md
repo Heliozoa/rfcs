@@ -20,6 +20,7 @@ List of requirements we expect courses to uphold both in MOOC.fi and in the cour
   - End date can be omitted if the course is continuous
 * Person in charge must be set
 * (Optional) Support email is set
+* A good and clear image that is relevant to the course's topic
 
 
 ## Course page contents
