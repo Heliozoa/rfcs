@@ -12,7 +12,14 @@ The projects that are in this update program are listed below:
 * MOOC.fi backend
 * Quizzes dashboard
 * Quizzes backend
+* Quizzes widget
+* Elements of AI material
+* Visual Studio Code
+* Python editor
 * Material template (ohjelmointi-20)
+* Certificates
+* java-programming
+* likert-react
 
 ### Material template
 
