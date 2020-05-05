@@ -34,7 +34,7 @@ Currently held back packages:
 
 react-ace and react-codemirror are dependencies of Code States Visualizer, which doesn't support newer versions. These can be updated after Code States Visualizer is updated to support newer versions.
 
-### Quizzes Backend
+### Quizzes Backend/ Quizzes Dashboard/ Quizzes Widget
 
 Update by doing the following:
 1. Run `yarn upgrade-interactive --latest` in the repository's root directory.
@@ -43,5 +43,11 @@ Update by doing the following:
 
 Currently held back packages:
 
+**Backend**:
 
-react-ace and react-codemirror are dependencies of Code States Visualizer, which doesn't support newer versions. These can be updated after Code States Visualizer is updated to support newer versions.
+**Dashboard**:
+
+**Widget**:
+
+
+
