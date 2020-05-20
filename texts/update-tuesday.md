@@ -29,6 +29,7 @@ Update by doing the following:
 3. Open the project in VSCode with `code .`
 4. From Run-menu (CTRL + SHIFT + D by default) select and run extension tests.
 5. You can also run the extension in debug mode from that same menu and try to download/run tests for an exercise to see if anything broke.
+6. Consider [publishing a new release](https://github.com/rage/tmc-vscode-documents#deployment-to-marketplace)
 
 Currently held back packages:
 * eslint@6.8.0 - waiting for @typescript-eslint/eslint-plugin
@@ -41,7 +42,8 @@ Update by doing the following:
 3. Run `npm run encode:worker` in the project root folder.
 4. Go to the example-directory and run `npm start`
 5. In a separate terminal go to the same directory and run `npm run cypress:open` to run E2E-tests.
-
+6. Update the version number accordingly in `package.json`, `package-lock.json` and `src/constants/index.ts`
+7. Login to npm with `npm login` and publish a new version with `npm publish`
 
 ### Material template
 
