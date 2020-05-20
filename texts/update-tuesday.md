@@ -24,17 +24,20 @@ The projects that are in this update program are listed below:
 ### Visual Studio Code
 
 Update by doing the following:
-1. Run `npm audit` to see if there are any security vulnerabilities.
-2. You can try to auto fix issues with `npm audit fix`
+1. Run `npx npm-check --update` in the repository's root directory.
+2. Select all dependencies that aren't currently held back (see list below). It might be wise to update one at a time and test to see if anything breaks.
 3. Open the project in VSCode with `code .`
 4. From Run-menu (CTRL + SHIFT + D by default) select and run extension tests.
 5. You can also run the extension in debug mode from that same menu and try to download/run tests for an exercise to see if anything broke.
 
+Currently held back packages:
+* eslint@6.8.0 - waiting for @typescript-eslint/eslint-plugin
+
 ### Python editor
 
 Update by doing the following:
-1. Run `npm audit` to see if there are any security vulnerabilities.
-2. You can try to auto fix issues with `npm audit fix`
+1. Run `npx npm-check --update` in the repository's root directory.
+2. Select all dependencies that aren't currently held back (see list below). It might be wise to update one at a time and test to see if anything breaks.
 3. Run `npm run encode:worker` in the project root folder.
 4. Go to the example-directory and run `npm start`
 5. In a separate terminal go to the same directory and run `npm run cypress:open` to run E2E-tests.
