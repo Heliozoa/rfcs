@@ -60,18 +60,25 @@ react-ace and react-codemirror are dependencies of Code States Visualizer, which
 
 ### Quizzes Backend/ Quizzes Dashboard/ Quizzes Widget
 
-Update by doing the following:
-1. Run `yarn upgrade-interactive --latest` in the repository's root directory.
-2. Select packages to update interactively or skip to update all - select ones that aren't currently held back (see list below). It might be wise to update one at a time and test to see if anything breaks.
+Update by doing the following in each package directory:
+1. Run `npm outdated` to list outdated dependencies.
+2. Run `npm install package-name@latest` to update dependency - select ones that aren't currently held back (see list below). It might be wise to update one at a time and test to see if anything breaks.
 3. If something breaks, determine whether to hold back or fix some other way.
 
 Currently held back packages:
 
 **Backend**:
 
+routing-controllers
+typeorm
+
 **Dashboard**:
 
+typesafe-actions
+
 **Widget**:
+
+typesafe-actions
 
 
 
