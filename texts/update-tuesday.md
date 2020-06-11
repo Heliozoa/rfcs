@@ -31,9 +31,6 @@ Update by doing the following:
 5. You can also run the extension in debug mode from that same menu and try to download/run tests for an exercise to see if anything broke.
 6. Consider [publishing a new release](https://github.com/rage/tmc-vscode-documents#deployment-to-marketplace)
 
-Currently held back packages:
-* eslint@6.8.0 - waiting for @typescript-eslint/eslint-plugin
-
 ### Python editor
 
 Update by doing the following:
@@ -53,10 +50,9 @@ Update by doing the following:
 3. If something breaks, determine whether to hold back or fix some other way.
 
 Currently held back packages:
-* react-ace@4.4.0
-* react-codemirror@1.0.0
-
-react-ace and react-codemirror are dependencies of Code States Visualizer, which doesn't support newer versions. These can be updated after Code States Visualizer is updated to support newer versions.
+* typesafe-actions@4.4.2 - waiting for @moocfi-quizzes to update typesafe-actions
+* graphql@14.6.0 - waiting for [gatsby-recipes](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-recipes/package.json) to update dependency
+* likert-react - latest version is 0.0.0-beta6
 
 ### Quizzes Backend/ Quizzes Dashboard/ Quizzes Widget
 
