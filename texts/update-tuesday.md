@@ -29,7 +29,7 @@ Update by doing the following:
 3. Open the project in VSCode with `code .`
 4. From Run-menu (CTRL + SHIFT + D by default) select and run extension tests.
 5. You can also run the extension in debug mode from that same menu and try to download/run tests for an exercise to see if anything broke.
-6. Consider [publishing a new release](https://github.com/rage/tmc-vscode-documents#deployment-to-marketplace)
+6. Consider [publishing a new release](https://github.com/rage/tmc-vscode/blob/master/docs/publish.md)
 
 ### Python editor
 
