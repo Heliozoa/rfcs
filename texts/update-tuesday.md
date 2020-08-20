@@ -20,6 +20,7 @@ The projects that are in this update program are listed below:
 * Certificates
 * java-programming
 * likert-react
+* tmc-langs-rust
 
 ### Visual Studio Code
 
@@ -80,5 +81,27 @@ typesafe-actions
 
 typesafe-actions
 
+### tmc-langs-rust
+Outdated Rust dependencies can be checked using [cargo-outdated](https://crates.io/crates/cargo-outdated).
 
+1. If not installed yet, install cargo-outdated with `cargo install cargo-outdated`.
+2. Call `cargo outdated -R` in the project root.
+3. Update the listed dependencies in the appropriate Cargo.toml files.
 
+Example output:
+```
+tmc-langs-core
+================
+Name      Project  Compat  Latest  Kind    Platform
+----      -------  ------  ------  ----    --------
+tempfile  2.2.0    ---     3.1.0   Normal  ---
+
+tmc-langs-python3
+================
+Name     Project  Compat  Latest  Kind    Platform
+----     -------  ------  ------  ----    --------
+log      0.3.9    ---     0.4.11  Normal  ---
+```
+In this case, tmc-langs-core/Cargo.toml's `tempfile = "2"` should be updated to `tempfile = "3"` and plugins/python3/Cargo.toml's `log = "0.3"` should be updated to `log = "0.4"`.
+
+**NOTE**: Updating the Java plugin's dependency on j4rs requires more care, because updating it also requires updating the bundled j4rs JAR to the same version. This is also why j4rs's version is specified down to the minor version, unlike with other dependencies.
